@@ -1,0 +1,178 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <h2>My Portfolio</h2>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>
+            Hello! My name is Anmol Gupta. I am a Data Science student
+            interested in programming, web development and technology.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1>My Projects</h1>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website created using HTML and CSS.</p>
+        </div>
+
+        <div class="project">
+            <h3>Python Project</h3>
+            <p>A basic Python project developed for learning programming.</p>
+        </div>
+
+        <div class="project">
+            <h3>GitHub Project</h3>
+            <p>A project hosted using GitHub Pages.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h1>My Portfolio Form</h1>
+
+        <form method="post">
+
+            <p>
+                Name:
+                <input type="text" placeholder="Name">
+            </p>
+
+            <p>
+                Father's Name:
+                <input type="text" placeholder="Father's Name">
+            </p>
+
+            <p>
+                Mother's Name:
+                <input type="text" placeholder="Mother's Name">
+            </p>
+
+            <p>Country:</p>
+
+            <label>
+                <input type="radio" name="country" value="India">
+                India
+            </label>
+
+            <label>
+                <input type="radio" name="country" value="USA">
+                USA
+            </label>
+
+            <label>
+                <input type="radio" name="country" value="UK">
+                UK
+            </label>
+
+            <p>Gender:</p>
+
+            <label>
+                <input type="radio" name="gender" value="Male">
+                Male
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="Female">
+                Female
+            </label>
+
+            <h3>Educational Qualifications</h3>
+
+            <table>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Standard</th>
+                    <th>Board/University</th>
+                    <th>Passing Year</th>
+                    <th>Percentage</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>10th</td>
+                    <td><input type="text" name="board10"></td>
+                    <td><input type="text" name="year10"></td>
+                    <td><input type="text" name="percentage10"></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>12th</td>
+                    <td><input type="text" name="board12"></td>
+                    <td><input type="text" name="year12"></td>
+                    <td><input type="text" name="percentage12"></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="boardgraduation"></td>
+                    <td><input type="text" name="yeargraduation"></td>
+                    <td><input type="text" name="percentagegraduation"></td>
+                </tr>
+            </table>
+
+            <p>Course:</p>
+
+            <label>
+                <input type="radio" name="course" value="B.TECH">
+                B.TECH
+            </label>
+
+            <label>
+                <input type="radio" name="course" value="M.TECH">
+                M.TECH
+            </label>
+
+            <h3>Declaration</h3>
+
+            <p>
+                I hereby declare that the above information is true and correct.
+            </p>
+
+            <label>
+                <input type="checkbox">
+                I agree to the declaration.
+            </label>
+
+            <p>
+                Date:
+                <input type="date">
+            </p>
+
+            <p>
+                Signature:
+                <input type="text">
+            </p>
+
+            <br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+    </section>
+
+</body>
+</html>
+

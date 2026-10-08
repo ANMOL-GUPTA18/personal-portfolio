@@ -1,0 +1,121 @@
+
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #222;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #222;
+    padding: 18px;
+    text-align: center;
+}
+
+nav h2 {
+    color: white;
+    display: inline;
+    margin-right: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* Sections */
+section {
+    width: 85%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+h1 {
+    color: #333;
+}
+
+h3 {
+    color: #444;
+}
+
+/* Project cards */
+.project {
+    background-color: #eef6ff;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #2196f3;
+    border-radius: 5px;
+}
+
+/* Form */
+form {
+    line-height: 1.8;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid #777;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td input {
+    width: 90%;
+    padding: 6px;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #2196f3;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #777;
+    color: white;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    opacity: 0.8;
+}
